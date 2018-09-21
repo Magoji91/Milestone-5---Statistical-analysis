@@ -1,0 +1,19 @@
+Data18 <- read.csv("~/Data18.csv", header=FALSE)
+View(Data18)
+head(Data18) # Print the first few, or last few, lines of a mdm object
+str(Data180) #check the variables / Get a summary of an object’s structure
+summary(Data18) #Get more detailed information out a model.
+dim(Data18) #check dimesions ( number of row & columns) in data set
+ls(Data18) # List all variables in the environment.
+table(is.na(Data18)) # See counts of missing values
+colSums(is.na(Data18)) # missing value in data exploration stages.
+unique(Data18) #See unique values.
+
+x <- Data18[complete.cases(Data18), ] #The results of complete.cases() is a logical vector with the value TRUE for rows that are complete, and FALSE for rows that have some NA values. To remove the rows with missing data from Data18, try the following:
+str(x)
+x <- na.omit(Data18) #omit all rows that contain NA values:
+str(x)
+summary(x)
+
+
+
