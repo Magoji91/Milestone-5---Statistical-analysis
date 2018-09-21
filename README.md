@@ -1,5 +1,13 @@
 # Milestone-4---Statistical-analysis
 
+Methods used in this study. This should be several paragraphs documenting the:
+
+Materials: 
+Number of test/questionnaire items, example item, number and type of response options, minimum and maximum possible score on the dependent variable, description and example of manipulation material, cover story etc. See this page for the raw materials that were used and the link to the questionnaire.
+Participants and procedure - How were people recruited to participate, were there any exclusion criteria, what procedures were used to assign participants to conditions, request for informed consent, debrief participants etc. Please note that you don't have to list any descriptive statistics like number of participants, mean age, number of men and women etc., since we're still collecting data at this point.
+
+
+
 Information about this research study
 
  
