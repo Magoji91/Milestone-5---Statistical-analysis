@@ -15,5 +15,12 @@ x <- na.omit(Data18) #omit all rows that contain NA values:
 str(x)
 summary(x)
 
+#Withdraw values that return inconsistent data, such as individuals of certain age groups, in the case I am considering removing individuals above 90 years and under 13 years.
+
+# Select all of 1928 from x
+x <- gender["1928"]
+
+# Select January 1, 1928 to dez 31, 2003
+jan_dez<-["19280101/20031231"]
 
 
